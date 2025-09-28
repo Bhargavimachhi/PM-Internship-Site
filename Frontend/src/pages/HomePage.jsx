@@ -22,8 +22,9 @@ import indialogo from "../assets/india-flag.jpg";
 import vikshitBharat from "../assets/vikshit-bharat.png";
 import RegisterModal from "../components/RegisterModel";
 import LoginModal from "../components/LoginModel";
-import EligibilityAndBenefits from "../components/EligibilityAndBenefits";
-import Footer from "../components/Footer";
+import EligibilityAndBenefits from "../components/homepage_components/EligibilityAndBenefits";
+import Footer from "../components/homepage_components/Footer";
+import InternshipMap from "../components/homepage_components/InternshipMap";
 
 const languages = [
   { code: "as", name: "Assamese" },
@@ -153,6 +154,8 @@ export default function InternshipPage() {
         </div>
       </div>
       <EligibilityAndBenefits />
+
+      <InternshipMap />
 
       <Footer />
     </>

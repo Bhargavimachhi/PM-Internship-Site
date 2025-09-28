@@ -1,4 +1,4 @@
-import mca from "../assets/MCA.svg";
+import mca from "../../assets/MCA.svg";
 import { Youtube, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const icons = [
